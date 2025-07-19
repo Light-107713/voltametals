@@ -1,0 +1,37 @@
+{
+  "name": "volta-metals-worldwide",
+  "version": "1.0.0",
+  "description": "Complete recreation of the Volta Metals Worldwide website with original images and exact design",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "npx serve .",
+    "dev": "npx live-server --port=8000",
+    "build": "echo 'Static site - no build required'",
+    "deploy:netlify": "npx netlify deploy --prod --dir=.",
+    "deploy:vercel": "npx vercel --prod"
+  },
+  "keywords": [
+    "volta",
+    "metals",
+    "mining",
+    "trading",
+    "website",
+    "recreation",
+    "responsive",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Web Developer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/username/volta-metals-worldwide.git"
+  },
+  "homepage": "https://voltametalsworldwide.netlify.app",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  }
+}
