@@ -1,0 +1,54 @@
+VOLTA METALS WORLDWIDE - IMAGE REQUIREMENTS
+
+This directory should contain the following images for the website to display properly:
+
+LOGO:
+- volta-logo.png (191px width, white background suitable for header)
+
+HERO SECTION IMAGES:
+- mining.jpg (400x200px - Mining operations/equipment)
+- trading.jpg (400x200px - Trading floor or commodities)
+- real-estate.jpg (400x200px - Modern buildings/real estate)
+
+ABOUT SECTION IMAGES:
+- mining-operations.jpg (612x464px - Large mining operation photo)
+- mining-site1.jpg (400x220px - Mining site aerial view)
+- mining-site2.jpg (400x220px - Mining equipment close-up)
+
+DIVISIONS SECTION IMAGES:
+- division-mining.jpg (297x480px - Vertical mining image)
+- division-trading.jpg (297x480px - Vertical trading image)
+- division-aviation.jpg (295x480px - Aircraft maintenance)
+- division-realestate.jpg (297x480px - Real estate development)
+
+METALS PAGE IMAGES:
+- rare-earth.jpg (400x200px - Rare earth materials)
+- precious-metals.jpg (400x200px - Gold/silver/platinum)
+- industrial-metals.jpg (400x200px - Copper/aluminum/zinc)
+- battery-materials.jpg (400x200px - Lithium/cobalt/nickel)
+
+TRADING PAGE IMAGES:
+- trading-floor.jpg (612x464px - Trading operations)
+- energy-commodities.jpg (400x200px - Oil/gas/energy)
+- metals-trading.jpg (400x200px - Metal commodities)
+- agricultural.jpg (400x200px - Agricultural products)
+- financial-instruments.jpg (400x200px - Financial charts/data)
+- market-analysis.jpg (612x464px - Analysis/research)
+
+FOUNDATION PAGE IMAGES:
+- foundation-work.jpg (612x464px - Community work/education)
+- education-program.jpg (400x200px - School/education)
+- health-program.jpg (400x200px - Medical/health services)
+- water-program.jpg (400x200px - Clean water access)
+- sustainability.jpg (400x200px - Environmental projects)
+- impact-stories.jpg (612x464px - Community impact)
+
+CONTACT PAGE IMAGES:
+(Uses same division images as above)
+
+RECOMMENDED SOURCES:
+- Unsplash.com (free high-quality images)
+- Pexels.com (free stock photos)
+- Search terms: "mining operations", "trading floor", "industrial metals", "community development", "real estate construction", "aircraft maintenance"
+
+All images should be optimized for web (under 500KB each) and have good lighting/professional appearance.
