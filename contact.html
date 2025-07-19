@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Volta - Get in Touch</title>
+    <meta name="description" content="Contact Volta for inquiries about our metals, trading, real estate, aviation, and foundation services.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="images/volta-logo.svg" alt="Volta logo" class="logo-img">
+                </div>
+                <nav class="nav" id="nav">
+                    <ul class="nav-links">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="metals.html" class="nav-link">Metals</a></li>
+                        <li><a href="trading.html" class="nav-link">Trading</a></li>
+                        <li><a href="fondation.html" class="nav-link">Fondation</a></li>
+                        <li><a href="contact.html" class="nav-link active">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Contact Us</h1>
+                <p class="hero-subtitle">Ready to partner with us? Get in touch to discuss your business needs and explore opportunities.</p>
+                <a href="#contact-form" class="btn btn-primary">Send Message</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information Section -->
+    <section class="about" id="contact-info">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info-section">
+                    <h3 class="section-title">Get In Touch</h3>
+                    <p class="about-description">We're here to help you with any inquiries about our services. Our team is ready to assist you with metals, trading, real estate, aviation, and foundation matters.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <h4>Email</h4>
+                            <p>contactvolta0@gmail.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Business Hours</h4>
+                            <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                            <p>Saturday: 10:00 AM - 4:00 PM</p>
+                            <p>Sunday: Closed</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Response Time</h4>
+                            <p>We aim to respond to all inquiries within 24 hours during business days.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-section" id="contact-form">
+                    <div class="contact-form-container">
+                        <h3 class="section-title">Send Us A Message</h3>
+                        <form class="contact-form" id="main-contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName" class="form-label">First Name *</label>
+                                    <input type="text" id="firstName" name="firstName" class="form-input" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName" class="form-label">Last Name *</label>
+                                    <input type="text" id="lastName" name="lastName" class="form-input" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address *</label>
+                                <input type="email" id="contact-email" name="email" class="form-input" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="company" class="form-label">Company</label>
+                                <input type="text" id="company" name="company" class="form-input">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="division" class="form-label">Division of Interest</label>
+                                <select id="division" name="division" class="form-input">
+                                    <option value="">Select Division</option>
+                                    <option value="metals">Metals</option>
+                                    <option value="trading">Trading</option>
+                                    <option value="real-estate">Real Estate</option>
+                                    <option value="aviation">Aviation</option>
+                                    <option value="foundation">Foundation</option>
+                                    <option value="general">General Inquiry</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-input">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message *</label>
+                                <textarea id="message" name="message" class="form-textarea" rows="6" required placeholder="Please describe your inquiry or how we can help you..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary form-submit-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divisions Contact Section -->
+    <section class="divisions">
+        <div class="container">
+            <div class="divisions-header">
+                <h3 class="section-title center">Our Divisions</h3>
+                <p class="section-subtitle center">Connect directly with our specialized teams for targeted assistance.</p>
+            </div>
+            <div class="divisions-contact-grid">
+                <div class="division-contact-card">
+                    <img src="images/division-mining.jpg" alt="Metals Division" class="division-contact-img">
+                    <div class="division-contact-content">
+                        <h4 class="division-contact-title">Volta Metals</h4>
+                        <p class="division-contact-description">Sustainable mining and rare metals processing</p>
+                        <a href="metals.html" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+                <div class="division-contact-card">
+                    <img src="images/division-trading.jpg" alt="Trading Division" class="division-contact-img">
+                    <div class="division-contact-content">
+                        <h4 class="division-contact-title">Volta Trading</h4>
+                        <p class="division-contact-description">Global commodities trading services</p>
+                        <a href="trading.html" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+                <div class="division-contact-card">
+                    <img src="images/division-realestate.jpg" alt="Real Estate Division" class="division-contact-img">
+                    <div class="division-contact-content">
+                        <h4 class="division-contact-title">Volta Real Estate</h4>
+                        <p class="division-contact-description">Innovative real estate projects</p>
+                        <a href="#" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+                <div class="division-contact-card">
+                    <img src="images/division-aviation.jpg" alt="Aviation Division" class="division-contact-img">
+                    <div class="division-contact-content">
+                        <h4 class="division-contact-title">Volta Aero</h4>
+                        <p class="division-contact-description">Aircraft maintenance and aviation services</p>
+                        <a href="#" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h5 class="footer-title">Divisions</h5>
+                    <p class="footer-description">Explore our diverse business divisions and services.</p>
+                </div>
+                <div class="footer-section">
+                    <h6 class="footer-subtitle">Contact</h6>
+                    <p class="footer-contact">contactvolta0@gmail.com</p>
+                </div>
+                <div class="footer-section">
+                    <h6 class="footer-subtitle">Support</h6>
+                    <form class="newsletter-form">
+                        <label for="newsletter-email" class="form-label">Enter your email address</label>
+                        <input type="email" id="newsletter-email" placeholder="Your email for updates" class="form-input">
+                        <button type="submit" class="btn btn-newsletter">Submit your information now</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">© 2024. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>
