@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Volta - Metals, Trading & More</title>
-    <meta name="description" content="Volta is a multifaceted company specializing in sustainable mining, global trading, real estate, aircraft maintenance, and philanthropic initiatives in education and health.">
+    <title>Volta - Leading Global Metal & Trading Solutions</title>
+    <meta name="description" content="Volta is a premier multifaceted company specializing in sustainable mining, global trading, luxury real estate, aircraft maintenance, and philanthropic initiatives worldwide.">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <!-- Header -->
@@ -15,16 +16,20 @@
             <div class="header-content">
                 <div class="logo">
                     <img src="images/volta-logo.png" alt="Volta logo" class="logo-img">
+                    <span class="logo-text">VOLTA</span>
                 </div>
                 <nav class="nav" id="nav">
                     <ul class="nav-links">
                         <li><a href="index.html" class="nav-link active">Home</a></li>
                         <li><a href="metals.html" class="nav-link">Metals</a></li>
                         <li><a href="trading.html" class="nav-link">Trading</a></li>
-                        <li><a href="fondation.html" class="nav-link">Fondation</a></li>
-                        <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                        <li><a href="fondation.html" class="nav-link">Foundation</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact</a></li>
                     </ul>
                 </nav>
+                <div class="header-cta">
+                    <a href="contact.html" class="btn btn-header">Get Started</a>
+                </div>
                 <div class="hamburger" id="hamburger">
                     <span></span>
                     <span></span>
@@ -36,29 +41,75 @@
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-background"></div>
+        <div class="hero-video-bg">
+            <div class="hero-overlay"></div>
+            <div class="hero-particles"></div>
+        </div>
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title">Explore Our Diverse Business Divisions</h1>
-                <p class="hero-subtitle">Innovative solutions in mining, trading, real estate and aviation.</p>
-                <a href="#about" class="btn btn-primary">Learn</a>
+                <div class="hero-badge">
+                    <i class="fas fa-award"></i>
+                    <span>Industry Leader Since 2010</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="hero-title-main">Pioneering the Future of</span>
+                    <span class="hero-title-gradient">Global Metal Solutions</span>
+                </h1>
+                <p class="hero-subtitle">From sustainable mining operations to cutting-edge trading platforms, we deliver innovative solutions across five dynamic business divisions that shape tomorrow's world.</p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">150+</div>
+                        <div class="stat-label">Global Projects</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Countries</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">$2.5B+</div>
+                        <div class="stat-label">Assets Under Management</div>
+                    </div>
+                </div>
+                <div class="hero-actions">
+                    <a href="#divisions" class="btn btn-primary">
+                        <span>Explore Our Divisions</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#about" class="btn btn-secondary">
+                        <i class="fas fa-play"></i>
+                        <span>Watch Our Story</span>
+                    </a>
+                </div>
             </div>
-            <div class="hero-divisions">
-                <div class="division-card">
-                    <div class="division-bg"></div>
-                    <img src="images/mining.jpg" alt="Mining Division" class="division-img">
-                    <p class="division-text">Sustainable mining and rare metals processing.</p>
+            <div class="hero-visual">
+                <div class="hero-card-stack">
+                    <div class="hero-card hero-card-1">
+                        <img src="images/mining-operations.jpg" alt="Mining Excellence">
+                        <div class="card-overlay">
+                            <h4>Mining Excellence</h4>
+                            <p>Sustainable extraction technologies</p>
+                        </div>
+                    </div>
+                    <div class="hero-card hero-card-2">
+                        <img src="images/trading.jpg" alt="Global Trading">
+                        <div class="card-overlay">
+                            <h4>Global Trading</h4>
+                            <p>Real-time market insights</p>
+                        </div>
+                    </div>
+                    <div class="hero-card hero-card-3">
+                        <img src="images/real-estate.jpg" alt="Premium Real Estate">
+                        <div class="card-overlay">
+                            <h4>Premium Real Estate</h4>
+                            <p>Luxury developments worldwide</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="division-card">
-                    <div class="division-bg"></div>
-                    <img src="images/trading.jpg" alt="Trading Division" class="division-img">
-                    <p class="division-text">Global commodities trading with expert insights.</p>
-                </div>
-                <div class="division-card">
-                    <div class="division-bg"></div>
-                    <img src="images/real-estate.jpg" alt="Real Estate Division" class="division-img">
-                    <p class="division-text">Real estate projects that redefine living spaces.</p>
-                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
             </div>
         </div>
     </section>
@@ -66,48 +117,229 @@
     <!-- About Section -->
     <section class="about" id="about">
         <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-building"></i>
+                    <span>About Volta</span>
+                </div>
+                <h2 class="section-title">Shaping Industries, <span class="text-gradient">Building Tomorrow</span></h2>
+                <p class="section-subtitle">With over a decade of excellence, Volta stands as a global leader in sustainable business practices, innovative technologies, and strategic partnerships that drive meaningful change across multiple industries.</p>
+            </div>
+            
             <div class="about-content">
                 <div class="about-text">
-                    <h3 class="section-title">About Volta</h3>
-                    <p class="about-description">Volta is a multifaceted company specializing in sustainable mining, global trading, real estate, aircraft maintenance, and philanthropic initiatives in education and health.</p>
-                    <a href="#" class="btn btn-secondary">Learn</a>
-                </div>
-                <div class="about-images">
-                    <img src="images/mining-operations.jpg" alt="Mining Operations" class="about-img main-img">
-                    <div class="about-gallery">
-                        <img src="images/mining-site1.jpg" alt="Mining Site 1" class="about-img gallery-img">
-                        <img src="images/mining-site2.jpg" alt="Mining Site 2" class="about-img gallery-img">
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Sustainable Operations</h4>
+                                <p>Environmental responsibility at the core of every operation, ensuring minimal ecological impact while maximizing efficiency.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Global Reach</h4>
+                                <p>Strategic partnerships and operations spanning five continents, connecting markets and opportunities worldwide.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Innovation First</h4>
+                                <p>Cutting-edge technology and forward-thinking approaches that redefine industry standards and expectations.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-actions">
+                        <a href="#" class="btn btn-outline">Learn More About Us</a>
+                        <div class="about-contact">
+                            <div class="contact-avatar">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <div class="contact-info">
+                                <span class="contact-name">Speak with our team</span>
+                                <span class="contact-email">contactvolta0@gmail.com</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="divisions-info">
-                <div class="divisions-text">
-                    <h3 class="section-title">Our Divisions</h3>
-                    <p class="divisions-description">Explore our diverse divisions: Volta Metals, Trading, Real Estate, Aero, and Foundation, each committed to excellence and sustainability.</p>
+                <div class="about-visual">
+                    <div class="about-image-main">
+                        <img src="images/mining-operations.jpg" alt="Volta Operations">
+                        <div class="image-badge">
+                            <i class="fas fa-award"></i>
+                            <span>Industry Leader</span>
+                        </div>
+                    </div>
+                    <div class="about-image-grid">
+                        <img src="images/mining-site1.jpg" alt="Mining Site 1" class="grid-img">
+                        <img src="images/mining-site2.jpg" alt="Mining Site 2" class="grid-img">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Divisions Section -->
-    <section class="divisions">
+    <section class="divisions" id="divisions">
         <div class="container">
-            <div class="divisions-header">
-                <h3 class="section-title center">Volta Divisions</h3>
-                <p class="section-subtitle center">Explore our diverse sectors: metals, trading, real estate, aviation and philanthropy.</p>
+            <div class="section-header center">
+                <div class="section-badge">
+                    <i class="fas fa-sitemap"></i>
+                    <span>Our Divisions</span>
+                </div>
+                <h2 class="section-title">Five Divisions, <span class="text-gradient">Infinite Possibilities</span></h2>
+                <p class="section-subtitle">Each division represents our commitment to excellence, innovation, and sustainable growth across diverse global markets.</p>
             </div>
+            
             <div class="divisions-grid">
-                <div class="division-item">
-                    <img src="images/division-mining.jpg" alt="Mining Division" class="division-item-img">
+                <div class="division-card">
+                    <div class="division-image">
+                        <img src="images/division-mining.jpg" alt="Volta Metals">
+                        <div class="division-overlay">
+                            <div class="division-icon">
+                                <i class="fas fa-hard-hat"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="division-content">
+                        <h3 class="division-title">Volta Metals</h3>
+                        <p class="division-description">Sustainable mining operations extracting rare earth elements and precious metals with cutting-edge environmental protection.</p>
+                        <div class="division-features">
+                            <span class="feature-tag">Rare Earth Mining</span>
+                            <span class="feature-tag">Sustainable Extraction</span>
+                            <span class="feature-tag">Environmental Protection</span>
+                        </div>
+                        <a href="metals.html" class="division-link">
+                            <span>Explore Metals</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="division-item">
-                    <img src="images/division-trading.jpg" alt="Trading Division" class="division-item-img">
+
+                <div class="division-card">
+                    <div class="division-image">
+                        <img src="images/division-trading.jpg" alt="Volta Trading">
+                        <div class="division-overlay">
+                            <div class="division-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="division-content">
+                        <h3 class="division-title">Volta Trading</h3>
+                        <p class="division-description">Global commodities trading platform providing real-time market insights and strategic investment opportunities worldwide.</p>
+                        <div class="division-features">
+                            <span class="feature-tag">Global Markets</span>
+                            <span class="feature-tag">Real-time Analytics</span>
+                            <span class="feature-tag">Strategic Investments</span>
+                        </div>
+                        <a href="trading.html" class="division-link">
+                            <span>Explore Trading</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="division-item">
-                    <img src="images/division-aviation.jpg" alt="Aviation Division" class="division-item-img">
+
+                <div class="division-card">
+                    <div class="division-image">
+                        <img src="images/division-realestate.jpg" alt="Volta Real Estate">
+                        <div class="division-overlay">
+                            <div class="division-icon">
+                                <i class="fas fa-building"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="division-content">
+                        <h3 class="division-title">Volta Real Estate</h3>
+                        <p class="division-description">Luxury real estate developments and commercial properties that redefine modern living and working spaces.</p>
+                        <div class="division-features">
+                            <span class="feature-tag">Luxury Developments</span>
+                            <span class="feature-tag">Commercial Properties</span>
+                            <span class="feature-tag">Modern Design</span>
+                        </div>
+                        <a href="#" class="division-link">
+                            <span>Explore Real Estate</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="division-item">
-                    <img src="images/division-realestate.jpg" alt="Real Estate Division" class="division-item-img">
+
+                <div class="division-card">
+                    <div class="division-image">
+                        <img src="images/division-aviation.jpg" alt="Volta Aero">
+                        <div class="division-overlay">
+                            <div class="division-icon">
+                                <i class="fas fa-plane"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="division-content">
+                        <h3 class="division-title">Volta Aero</h3>
+                        <p class="division-description">Premium aircraft maintenance and aviation services ensuring safety, reliability, and performance excellence.</p>
+                        <div class="division-features">
+                            <span class="feature-tag">Aircraft Maintenance</span>
+                            <span class="feature-tag">Safety First</span>
+                            <span class="feature-tag">Performance Excellence</span>
+                        </div>
+                        <a href="#" class="division-link">
+                            <span>Explore Aviation</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="division-card division-card-featured">
+                    <div class="division-image">
+                        <img src="images/foundation-work.jpg" alt="Volta Foundation">
+                        <div class="division-overlay">
+                            <div class="division-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="division-content">
+                        <h3 class="division-title">Volta Foundation</h3>
+                        <p class="division-description">Philanthropic initiatives focused on education, healthcare, and sustainable development in underserved communities worldwide.</p>
+                        <div class="division-features">
+                            <span class="feature-tag">Education Programs</span>
+                            <span class="feature-tag">Healthcare Initiatives</span>
+                            <span class="feature-tag">Community Development</span>
+                        </div>
+                        <a href="fondation.html" class="division-link">
+                            <span>Explore Foundation</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <div class="cta-text">
+                    <h2 class="cta-title">Ready to Shape the Future Together?</h2>
+                    <p class="cta-description">Join Volta in pioneering sustainable solutions that drive innovation, create value, and make a positive impact on communities worldwide.</p>
+                </div>
+                <div class="cta-actions">
+                    <a href="contact.html" class="btn btn-primary btn-large">
+                        <span>Start Your Journey</span>
+                        <i class="fas fa-rocket"></i>
+                    </a>
+                    <a href="#" class="btn btn-outline btn-large">
+                        <i class="fas fa-download"></i>
+                        <span>Download Brochure</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -117,25 +349,85 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-section">
-                    <h5 class="footer-title">Divisions</h5>
-                    <p class="footer-description">Explore our diverse business divisions and services.</p>
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="images/volta-logo.png" alt="Volta logo" class="logo-img">
+                        <span class="logo-text">VOLTA</span>
+                    </div>
+                    <p class="footer-description">Leading the future of sustainable business across mining, trading, real estate, aviation, and philanthropy.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
                 </div>
-                <div class="footer-section">
-                    <h6 class="footer-subtitle">Contact</h6>
-                    <p class="footer-contact">contactvolta0@gmail.com</p>
-                </div>
-                <div class="footer-section">
-                    <h6 class="footer-subtitle">Support</h6>
-                    <form class="newsletter-form">
-                        <label for="email" class="form-label">Enter your email address</label>
-                        <input type="email" id="email" placeholder="Your email for updates" class="form-input">
-                        <button type="submit" class="btn btn-newsletter">Submit your information now</button>
-                    </form>
+                
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h5 class="footer-title">Divisions</h5>
+                        <ul class="footer-list">
+                            <li><a href="metals.html">Volta Metals</a></li>
+                            <li><a href="trading.html">Volta Trading</a></li>
+                            <li><a href="#">Volta Real Estate</a></li>
+                            <li><a href="#">Volta Aero</a></li>
+                            <li><a href="fondation.html">Volta Foundation</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h5 class="footer-title">Company</h5>
+                        <ul class="footer-list">
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">News & Media</a></li>
+                            <li><a href="#">Sustainability</a></li>
+                            <li><a href="#">Investor Relations</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h5 class="footer-title">Contact</h5>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>contactvolta0@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+1 (555) 123-4567</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Global Headquarters</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h5 class="footer-title">Stay Updated</h5>
+                        <p class="newsletter-description">Get the latest news and insights from Volta directly to your inbox.</p>
+                        <form class="newsletter-form">
+                            <div class="form-group">
+                                <input type="email" placeholder="Enter your email" class="form-input">
+                                <button type="submit" class="btn btn-newsletter">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
+            
             <div class="footer-bottom">
-                <p class="copyright">© 2024. All rights reserved.</p>
+                <div class="footer-copyright">
+                    <p>&copy; 2024 Volta Metals Worldwide. All rights reserved.</p>
+                </div>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
             </div>
         </div>
     </footer>
