@@ -3,10 +3,185 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Volta Metals - Sustainable Mining & Rare Metals Processing</title>
-    <meta name="description" content="Volta Metals specializes in sustainable mining and rare metals processing with advanced technology and environmental responsibility.">
+    <title>Volta Metals - Strategic & Rare Earth Metals</title>
+    <meta name="description" content="Volta Metals specializes in strategic and rare earth metals mining with global operations in Switzerland and UAE. 20+ years experience in commodity trading.">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Additional styles for metals page */
+        .metals-hero {
+            min-height: 100vh;
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1516397281156-ca07cf9746fc?auto=format&fit=crop&w=1920') center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+        
+        .hero-content h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            line-height: 1.3;
+        }
+        
+        .section-bg-light {
+            background-color: rgb(236, 239, 243);
+            padding: 80px 0;
+        }
+        
+        .section-bg-dark {
+            background-color: rgb(13, 27, 43);
+            color: white;
+            padding: 80px 0;
+        }
+        
+        .section-bg-image {
+            background: linear-gradient(rgba(0,0,0,0.56), rgba(0,0,0,0.56)), url('https://images.unsplash.com/photo-1562405307-7183604982f6?auto=format&fit=crop&w=1920') center/cover;
+            color: white;
+            padding: 100px 0;
+        }
+        
+        .section-bg-mining {
+            background: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url('https://images.unsplash.com/photo-1539186607619-df476afe6ff1?auto=format&fit=crop&w=1920') center/cover;
+            color: white;
+            padding: 100px 0;
+        }
+        
+        .two-column-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+            margin: 60px 0;
+        }
+        
+        .content-box {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        
+        .section-title-large {
+            font-size: 2rem;
+            font-weight: 600;
+            color: rgb(26, 26, 26);
+            margin-bottom: 1.5rem;
+            line-height: 1.3;
+        }
+        
+        .section-title-white {
+            font-size: 3rem;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 2rem;
+            line-height: 1.3;
+        }
+        
+        .business-section h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: rgb(26, 26, 26);
+            margin-bottom: 1rem;
+        }
+        
+        .business-description {
+            color: rgb(51, 51, 51);
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+        
+        .metals-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+            margin: 80px 0;
+        }
+        
+        .metal-category {
+            background: rgb(236, 239, 243);
+            padding: 60px 40px;
+            border-radius: 8px;
+            position: relative;
+        }
+        
+        .metal-category h6 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: rgb(0, 0, 0);
+            margin-bottom: 1.5rem;
+        }
+        
+        .metal-category p {
+            color: rgb(0, 0, 0);
+            line-height: 1.6;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .metal-image {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        
+        .business-cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            margin: 60px 0;
+        }
+        
+        .business-card {
+            background: white;
+            padding: 40px 30px;
+            border-radius: 8px;
+            text-align: left;
+        }
+        
+        .business-card h6 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: rgb(0, 0, 0);
+            margin-bottom: 1.5rem;
+        }
+        
+        .business-card p {
+            color: rgb(0, 0, 0);
+            line-height: 1.6;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .business-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+        }
+        
+        @media (max-width: 768px) {
+            .two-column-grid,
+            .metals-grid,
+            .business-cards {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            
+            .hero-content h1 {
+                font-size: 2.5rem;
+            }
+            
+            .section-title-white {
+                font-size: 2rem;
+            }
+        }
+    </style>
 </head>
 <body>
     <!-- Header -->
@@ -35,109 +210,165 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-background"></div>
+    <section class="metals-hero">
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title">Volta Metals Division</h1>
-                <p class="hero-subtitle">Sustainable mining and rare metals processing with cutting-edge technology and environmental responsibility.</p>
-                <a href="#services" class="btn btn-primary">Explore Our Services</a>
+                <h1>Together Building A Better Future For All.</h1>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section class="about" id="services">
+    <!-- Main Content Section -->
+    <section class="section-bg-light">
         <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h3 class="section-title">Our Mining Operations</h3>
-                    <p class="about-description">Volta Metals operates with state-of-the-art mining technology, focusing on sustainable extraction of rare earth elements and precious metals. Our operations prioritize environmental stewardship while maintaining the highest standards of safety and efficiency.</p>
-                    <div class="features-list">
-                        <div class="feature-item">
-                            <h4>Sustainable Extraction</h4>
-                            <p>Environmentally responsible mining practices that minimize ecological impact.</p>
-                        </div>
-                        <div class="feature-item">
-                            <h4>Advanced Technology</h4>
-                            <p>Cutting-edge equipment and processes for maximum efficiency and safety.</p>
-                        </div>
-                        <div class="feature-item">
-                            <h4>Quality Assurance</h4>
-                            <p>Rigorous testing and certification processes ensure the highest quality standards.</p>
-                        </div>
+            <div class="text-center" style="margin-bottom: 4rem;">
+                <h3 class="section-title-large">We are profitable and sustainable for the planet</h3>
+            </div>
+            
+            <div class="two-column-grid">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=606&h=304" alt="photo of truss towers" class="metal-image">
+                    <div class="content-box">
+                        <h3>Energy & Metal Industry</h3>
+                        <p class="business-description">Our know-how is primarily based on the transformation industry in energy and specifically in the metal transformation industry.<br><br>Our highly qualified team can revitalize existing plants with technological and management strategies.</p>
                     </div>
                 </div>
-                <div class="about-images">
-                    <img src="images/mining-operations.jpg" alt="Mining Operations" class="about-img main-img">
+                
+                <div>
+                    <img src="https://images.unsplash.com/photo-1529573720866-e838d13a695b?auto=format&fit=crop&w=606&h=304" alt="an aerial view of a train track in the desert" class="metal-image">
+                    <div class="content-box">
+                        <h3>Mining & Commodities</h3>
+                        <p class="business-description">We have a proven experience of more than 20 years in commodity trading with soft and hard verticals with our global operations in Switzerland and UAE.<br><br>Mineral Resources Mining with a focus on strategic and rare earth metals that can complete our commodities ecosystem is also our top priority in Africa.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Products Section -->
-    <section class="divisions">
+    <!-- Business Sections -->
+    <section class="section-bg-dark">
         <div class="container">
-            <div class="divisions-header">
-                <h3 class="section-title center">Our Metal Products</h3>
-                <p class="section-subtitle center">High-quality rare earth elements and precious metals for various industrial applications.</p>
+            <div class="business-cards">
+                <div class="business-card">
+                    <img src="https://images.unsplash.com/photo-1518186285589-2f7649de83e0?auto=format&fit=crop&w=400&h=304" alt="turned on flat screen monitor">
+                    <h6><strong>Investment & Private Equity</strong></h6>
+                    <p>We believe in entrepreneurs and family lead businesses and are always on the lookout for interesting investment opportunities. Our target is companies in growth or scaling mode looking at mining, industrial, finance, fintech startups, and Africa-focused businesses.</p>
+                </div>
+                
+                <div class="business-card">
+                    <img src="https://images.unsplash.com/photo-1523839699072-5ec088b61a21?auto=format&fit=crop&w=400&h=304" alt="gray high-rise building at night time">
+                    <h6><strong>Banking & Fintech</strong></h6>
+                    <p>Our international business team is at the forefront of creating a digital revolution in the banking space in Africa and EMEA on a larger scope. We understand that fintech and banking cant create freedom for billions of unbanked clients and local and regional SMEs. This is our goal, freedom in banking.</p>
+                </div>
+                
+                <div class="business-card">
+                    <img src="https://images.unsplash.com/photo-1579208995240-4c53b5535bad?auto=format&fit=crop&w=400&h=304" alt="person holding white notebook">
+                    <h6><strong>Respect, Equality And Inclusion</strong></h6>
+                    <p>We see our partners, employees, investors, and clients as one family. Our family. Get started today</p>
+                </div>
             </div>
-            <div class="products-grid">
-                <div class="product-card">
-                    <img src="images/rare-earth.jpg" alt="Rare Earth Elements" class="product-img">
-                    <div class="product-content">
-                        <h4 class="product-title">Rare Earth Elements</h4>
-                        <p class="product-description">Essential elements for technology and renewable energy applications.</p>
-                    </div>
+        </div>
+    </section>
+
+    <!-- Strategic Metals Section -->
+    <section style="background: white; padding: 80px 0;">
+        <div class="container">
+            <div class="two-column-grid">
+                <div>
+                    <h3 style="color: rgb(26, 26, 26); font-size: 1.25rem; font-weight: 600; margin-bottom: 1.5rem;">STRATEGIC & RARE EARTH METALS</h3>
+                    <h3 style="color: rgb(26, 26, 26); font-size: 1rem; font-weight: 400; line-height: 1.6;">Also known as critical metals, technology metals, or minor metals, these are elements that are necessary for technological and industrial processes but are in short supply and have no known alternatives.</h3>
                 </div>
-                <div class="product-card">
-                    <img src="images/precious-metals.jpg" alt="Precious Metals" class="product-img">
-                    <div class="product-content">
-                        <h4 class="product-title">Precious Metals</h4>
-                        <p class="product-description">Gold, silver, platinum, and other precious metals for investment and industrial use.</p>
-                    </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1518994255497-c5f17690567f?auto=format&fit=crop&w=400&h=327" alt="gray wire lot" style="width: 100%; height: 300px; object-fit: cover; border-radius: 8px;">
                 </div>
-                <div class="product-card">
-                    <img src="images/industrial-metals.jpg" alt="Industrial Metals" class="product-img">
-                    <div class="product-content">
-                        <h4 class="product-title">Industrial Metals</h4>
-                        <p class="product-description">Copper, aluminum, zinc, and other metals for manufacturing and construction.</p>
-                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Metal Categories Section -->
+    <section style="background: white; padding: 80px 0;">
+        <div class="container">
+            <div class="metals-grid">
+                <div class="metal-category">
+                    <h6><strong>Rare Earth Metals</strong></h6>
+                    <p>A set of 17 nearly- indistinguishable lustrous silvery-white soft heavy metals. Compounds containing rare earth have diverse applications in electrical and electronic components, lasers, glass, magnetic materials, and industrial processes.</p>
+                    <img src="https://images.unsplash.com/photo-1578589385589-c94a956e2450?auto=format&fit=crop&w=606&h=344" alt="a close up of a blue and yellow painting" class="metal-image">
                 </div>
-                <div class="product-card">
-                    <img src="images/battery-materials.jpg" alt="Battery Materials" class="product-img">
-                    <div class="product-content">
-                        <h4 class="product-title">Battery Materials</h4>
-                        <p class="product-description">Lithium, cobalt, and nickel for electric vehicle and energy storage batteries.</p>
-                    </div>
+                
+                <div class="metal-category">
+                    <h6><strong>Metal Ore</strong></h6>
+                    <p>Metal Ore is extracted from the earth through and treated or often via, to extract the valuable metals or minerals. The grade of ore refers to the concentration of the desired material it contains.</p>
+                    <img src="https://images.unsplash.com/photo-1596366799180-d5df057500a3?auto=format&fit=crop&w=606&h=344" alt="brown and gray abstract painting" class="metal-image">
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CSR & ESG Section -->
+    <section class="section-bg-image">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 3rem;">
+                <h3 class="section-title-white"><strong>Our CSR & ESG Policies</strong></h3>
+            </div>
+            
+            <div class="two-column-grid">
+                <div>
+                    <h1 style="color: rgb(255, 255, 255); font-size: 2rem; line-height: 1.3; margin-bottom: 2rem;">We believe in technology, renewable energy and a brighter futur for the next generations.</h1>
+                    <h3 style="color: rgb(255, 255, 255); font-size: 1.5rem; line-height: 1.3; margin-bottom: 2rem;">We have 4 pillars: environmental impacts, ethical resposability, philanthropic endeavors and financial responsibilities. We commit always to supporting and helping local communities by opening dialogues and reachingout.</h3>
+                </div>
+                <div>
+                    <h3 style="color: rgb(255, 255, 255); font-size: 1.5rem; line-height: 1.3;">We have 3 pillars: economics viability, environmental protection and social equity. This means taking measures to lower pollution and CO2 output and reduce waste, having a diverse and inclusive workforce, at all levels.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How We Operate Section -->
+    <section class="section-bg-mining">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 3rem;">
+                <h3 style="color: rgb(255, 255, 255); font-size: 3rem; font-weight: 600; margin-bottom: 2rem;">About us</h3>
+                <h3 style="color: rgb(255, 255, 255); font-size: 3rem; font-weight: 600; margin-bottom: 3rem;">How We Operate?</h3>
+            </div>
+            
+            <div class="two-column-grid">
+                <div>
+                    <p style="color: rgb(255, 255, 255); font-size: 1.5rem; line-height: 1.3; margin-bottom: 2rem;">We believe our strategy of using cash flow from existing operations to fund overhead and grow our portfolio of strategic investments in jurisdictions where the returns are commensurate with the risk will allow us to build a diversified portfolio of cash generating high-quality project.</p>
+                </div>
+                <div>
+                    <h3 style="color: rgb(255, 255, 255); font-size: 1.5rem; line-height: 1.3; font-weight: 400;">Committed to developing projects that are tailored to materials expected to benefit from strong future demand, while also minimizing our carbon footprint.</h3>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 4rem;">
+                <p style="color: rgb(255, 255, 255); font-size: 1.5rem; line-height: 1.3;">We know it's possible to produce minerals in a way that is profitable and sustainable for the planet. That's why we're committed to developing projects that are tailored to materials expected to benefit from strong future demand, while also minimizing our carbon footprint.</p>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer" style="background-color: #344258; color: white; padding: 60px 0 40px;">
         <div class="container">
-            <div class="footer-content">
+            <div class="footer-content" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 40px; margin-bottom: 40px;">
                 <div class="footer-section">
-                    <h5 class="footer-title">Divisions</h5>
-                    <p class="footer-description">Explore our diverse business divisions and services.</p>
+                    <h5 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 1rem;">Divisions</h5>
+                    <p style="color: #ffffff; font-size: 0.9rem; line-height: 1.3;">Explore our diverse business divisions and services.</p>
                 </div>
                 <div class="footer-section">
-                    <h6 class="footer-subtitle">Contact</h6>
-                    <p class="footer-contact">contactvolta0@gmail.com</p>
+                    <h6 style="color: #ffffff; font-weight: 700; margin-bottom: 1rem;"><strong>Contact</strong></h6>
+                    <p style="color: rgb(255, 255, 255);">contactvolta0@gmail.com</p>
                 </div>
                 <div class="footer-section">
-                    <h6 class="footer-subtitle">Support</h6>
-                    <form class="newsletter-form">
-                        <label for="email" class="form-label">Enter your email address</label>
-                        <input type="email" id="email" placeholder="Your email for updates" class="form-input">
-                        <button type="submit" class="btn btn-newsletter">Submit your information now</button>
+                    <h6 style="color: #ffffff; font-weight: 700; margin-bottom: 1rem;"><strong>Support</strong></h6>
+                    <form style="display: flex; flex-direction: column; gap: 12px;">
+                        <label style="color: #ffffff; font-size: 1rem;">Enter your email address</label>
+                        <input type="email" placeholder="Your email for updates" style="padding: 12px; border: 1px solid rgb(184, 192, 204); border-radius: 10px; font-size: 1rem;">
+                        <button type="submit" style="background-color: #5a7a97; color: #ffffff; border: none; border-radius: 50px; padding: 12px 24px; font-size: 0.9rem; cursor: pointer;">Submit your information now</button>
                     </form>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p class="copyright">© 2024. All rights reserved.</p>
+            <div class="footer-bottom" style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px;">
+                <p style="color: #ffffff; font-size: 0.9rem; line-height: 1.3;">© 2024. All rights reserved.</p>
             </div>
         </div>
     </footer>
